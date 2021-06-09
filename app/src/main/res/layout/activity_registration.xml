@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:elevation="9dp"
+                android:gravity="center"
+
+                android:text="Financious"
+                android:padding="10dp"
+
+                android:background="@color/teal_700"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                android:layout_column="0"
+                android:layout_columnSpan="6"
+
+                android:layout_row="6"
+                android:layout_height="match_parent"
+                android:textColor="#0f0f0f" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Registration"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                />
+
+            <EditText
+                android:id="@+id/email_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Email"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:background="@color/purple_200"
+
+                />
+
+            <EditText
+                android:id="@+id/pass_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Password"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:background="@color/purple_200"
+                />
+
+
+            <Button
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="70dp"
+                android:text="Register" />
+
+
+            <TextView
+                android:id="@+id/signin_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="Already have account?Sign in here!" />
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>
+
